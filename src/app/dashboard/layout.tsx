@@ -62,6 +62,8 @@ export default function DashboardLayout({
 
   const adminLinks = [
     { href: '/dashboard/admin', label: 'Ringkasan Data', icon: Activity },
+    { href: '/dashboard/admin/guru', label: 'Data Guru', icon: Users },
+    { href: '/dashboard/admin/siswa', label: 'Data Siswa (7-9)', icon: GraduationCap },
     { href: '/dashboard/admin/verifikasi', label: 'Verifikasi Siswa', icon: CheckSquare },
   ];
 
